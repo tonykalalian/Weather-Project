@@ -1,2 +1,2 @@
 # Weather-Project
-My first time using API to detect the weather 
+My weather api project
