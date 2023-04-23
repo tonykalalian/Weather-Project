@@ -46,6 +46,6 @@ app.post("/", (req, res) => {
   });
 });
 
-app.listen(3200, () => {
+app.listen(3200 || process.env.PORT, () => {
   console.log("server is running on port 3200");
 });
